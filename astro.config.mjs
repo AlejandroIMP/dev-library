@@ -9,7 +9,7 @@ export default defineConfig({
   integrations: [tailwind()],
   env: {
     schema: {
-      SHOY_BUY_BUTTON: envField.boolean({ default: true, context: 'server', access: 'public' }),
+      SHOW_BUY_BUTTON: envField.boolean({ default: true, context: 'server', access: 'public' }),
       SCORE_API_ENDPOINT: envField.string({ context: 'server', access: 'public' }),
     }
   }
